@@ -1,0 +1,5 @@
+L’opérateur / réalise par défaut une division euclidienne, aussi appelée division entière.
+Pour réaliser une division entière, il faut utiliser //
+
+7/2 = 3.5
+7//2 = 3

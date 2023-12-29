@@ -1,0 +1,19 @@
+Plutot que d’ecrire
+
+if condition :
+uneVar = valeurVraie
+else :
+uneVar = valeurFausse
+
+
+on peut utiliser la syntaxe
+
+uneVar = valeurVraie if condition else valeurFausse
+
+
+exemple  : 
+
+dX = int ( input ( " Entrer un deplacement lateral : " ) )
+gaucheOuDroite = " gauche " if dX < 0 else " droite "
+print ( " Vous avez entre ", dX , end ="" )
+print ( " et nous allons donc a", gaucheOuDroite )

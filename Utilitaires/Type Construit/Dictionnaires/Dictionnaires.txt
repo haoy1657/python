@@ -1,0 +1,33 @@
+Les éléments d’une liste ou d’un tuple sont ordonnés et on accéde à un élément grâce à sa position en utilisant un numéro 
+qu’on appelle l’indice de l’élément.
+
+Un dictionnaire en Python va aussi permettre de rassembler des éléments mais ceux-ci seront identifiés par une clé. 
+On peut faire l’analogie avec un dictionnaire de français où on accède à une définition avec un mot.
+
+Contrairement aux listes qui sont délimitées par des crochets, on utilise des accolades pour les dictionnaires.
+
+mon_dictionnaire = {"voiture": "véhicule à quatre roues", "vélo": "véhicule à deux roues"}
+
+Un élément a été défini ci-dessus dans le dictionnaire en précisant une clé au moyen d’une chaîne de caractères suivie de : puis de la valeur associée
+
+clé: valeur
+
+On accède à une valeur du dictionnaire en utilisant la clé entourée par des crochets avec la syntaxe suivante :
+
+mon_dictionnaire["voiture"]
+'véhicule à quatre roues'
+
+
+
+il est très facile d’ajouter un élément à un dictionnaire. Il suffit d’affecter une valeur pour la nouvelle clé.
+
+mon_dictionnaire["tricycle"] = "véhicule à trois roues"
+
+
+le type d'un dictionnaire est dict 
+
+
+
+Il est aussi possible d’utiliser des valeurs d’autres types.
+Voici un exemple où les valeurs sont des entiers.
+nombre_de_roues = {"voiture": 4, "vélo": 2}

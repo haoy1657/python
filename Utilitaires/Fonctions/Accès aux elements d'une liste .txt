@@ -1,0 +1,15 @@
+a = list(range(1,10,2))
+>>> a
+  [1, 3, 5, 7, 9]
+
+>>> a[0]
+  1
+
+>>> a[2]
+  5
+
+Pour accéder à un élément d’une liste, on indique entre crochets [] l’indice de l’élément.
+
+Avertissement
+
+En Python, l’indice du premier élément d’une liste est 0 (ceci est à distinguer d’autres langages).

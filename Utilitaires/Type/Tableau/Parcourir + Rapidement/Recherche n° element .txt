@@ -1,0 +1,13 @@
+
+recherhce de la position du 1er 15 dans un tableau 
+
+S = [ i for i in range (10,21) ]
+
+i = 0
+while i < len ( S ) and S [i] != 15 :
+   i += 1
+   if i == len ( S ) : # Arrivée au bout du tableau 
+      print ( " Pas de 15 dans le tableau " )
+
+
+print ( "Le 1er 15 est a la position ", i ) # Ligne à executer lorsque S[i] = 15

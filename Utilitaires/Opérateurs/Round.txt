@@ -1,0 +1,5 @@
+La fonction round(number, n) prend un nombre en entrée et l’arrondit à n décimales.
+note : 
+
+DeprecationWarning: The Python built-in `round` is deprecated for complex scalars, 
+and will raise a `TypeError` in a future release. Use `np.round` or `scalar.round` instead.

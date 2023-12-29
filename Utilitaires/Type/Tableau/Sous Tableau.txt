@@ -1,0 +1,10 @@
+sousTab = tab[a:b:c]
+a : indice de départ (0 par défaut)
+b : indice de fin (dernier element par défaut) 
+c : pas (1 par d´efaut)
+
+Remarque : on récupère les cases de [a; b[
+
+" Parcours inverse "
+sTab = tab [10:0: -1] # Cases de 10 a 0 ( exclu )
+Remarque : on récupère les cases de [b; a[

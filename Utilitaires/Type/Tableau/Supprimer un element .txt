@@ -1,0 +1,2 @@
+del tableau(position à supprimer) 
+del tableau [a:b] , suppression avec un intervalle

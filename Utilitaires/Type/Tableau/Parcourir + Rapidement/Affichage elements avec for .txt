@@ -1,0 +1,5 @@
+# Affichage de toutes les valeurs
+
+for valT in tab : # valT prend successivement toutes
+print ( valT , " ", end ="" ) # les valeurs de tab
+print ( "" ) # Retour a la ligne

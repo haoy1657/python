@@ -1,0 +1,16 @@
+Graduations des axes
+plt.axis([0, 5, 0, 5])
+
+Noms des axes
+plt.xlabel(" ")
+plt.ylabel(" ")
+
+Motifs de plots
+
+'Couleur--' -->  ligne 
+'Couleur s' --> Carrés
+'Couleur^ --> Triangles
+
+
+hold on pour plt.plot
+equivaut à faire CRTL + entrée

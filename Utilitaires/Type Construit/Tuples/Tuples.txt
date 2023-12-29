@@ -1,0 +1,59 @@
+A partir des types de base (int, float, etc.), il est possible d’en élaborer de nouveaux. On les appelle des types construits.
+
+Un exemple de type construit est le tuple. Il permet de créer une collection ordonnée de plusieurs éléments. 
+En mathématiques, on parle de p-uplet. Par exemple, un quadruplet est constitué de 4 éléments.
+
+Les tuples ressemblent aux listes, mais on ne peut pas les modifier une fois qu’ils ont été créés.
+
+On dit qu’un tuple n’est pas mutable.
+
+On le définit avec des parenthèses.
+
+a = (3, 4, 7)
+type(a)
+<class 'tuple'>
+
+
+
+
+Parfois, les tuples ne sont pas entourés de parenthèses, même s’il s’agit quand même de tuples.
+Ainsi, on peut utiliser la notation suivante :
+
+b, c = 5, 6
+b = 5
+c = 6
+En fait, cela revient à :
+(b, c) = (5, 6)
+
+
+
+
+Pour créer un tuple contenant un seul élément, il faut donc utiliser une syntaxe spécifique qui contient une virgule.
+
+b = (3,)
+b
+(3,)
+type(b)
+<class 'tuple'>
+
+
+
+
+Si on veut récupérer l’unique valeur présente dans le tuple, on va pouvoir utiliser les approches suivantes :
+
+Première approche
+
+c = b[0]
+c = 3
+Deuxième approche
+
+d, = b
+d = 3
+La deuxième approche avec une virgule d, = b est plus légère que la syntaxe qui utilise des crochets c = b[0].
+
+Il est possible d’utiliser la syntaxe : nom_de_variable, =  aussi avec une liste à un élément.
+
+u = [5]
+v, = u
+v
+5

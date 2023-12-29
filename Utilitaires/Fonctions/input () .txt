@@ -1,0 +1,6 @@
+Par défaut, la fonction input() renvoie une chaîne de caractères.
+
+note : int() ==> Ce type est utilisé pour stocker un entier
+
+obtenir un entier : 
+x = int(input("Donnez un entier : "))

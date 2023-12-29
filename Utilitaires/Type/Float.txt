@@ -1,0 +1,6 @@
+Ce type est utilisé pour stocker des nombres à virgule flottante, désignés en anglais par l’expression floating point numbers. 
+Pour cette raison, on appelle ce type : float. En français, on parle de flottant.
+
+a = 3.25e7
+type(a)
+float

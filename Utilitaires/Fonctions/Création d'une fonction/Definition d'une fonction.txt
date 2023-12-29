@@ -1,0 +1,91 @@
+Syntaxe
+
+La syntaxe Python pour la définition d’une fonction est la suivante :
+
+def nom_fonction(liste de paramètres):
+      bloc d'instructions
+
+Vous pouvez choisir n’importe quel nom pour la fonction que vous créez, à l’exception des mots-clés réservés du langage, 
+et à la condition de n’utiliser aucun caractère spécial ou accentué (le caractère souligné « _ » est permis). 
+Comme c’est le cas pour les noms de variables, on utilise par convention des minuscules, 
+notamment au début du nom (les noms commençant par une majuscule seront réservés aux classes).
+
+
+A) Fonction sans paramètre
+
+Exemple
+
+def compteur3():
+    i = 0
+    while i < 3:
+        print(i)
+        i = i + 1
+
+resultat  : 
+0
+1
+2
+
+
+
+
+Une première fonction peut donc appeler une deuxième fonction, qui elle-même en appelle une troisième, etc.
+Créer une nouvelle fonction offre l’opportunité de donner un nom à tout un ensemble d’instructions. 
+De cette manière, on peut simplifier le corps principal d’un programme, en dissimulant un algorithme secondaire complexe sous une commande unique, 
+à laquelle on peut donner un nom explicite.
+Une fonction est donc en quelque sorte une nouvelle instruction personnalisée, qu’il est possible d’ajouter librement à notre langage de programmation.
+
+
+Exemple : 
+
+def double_compteur3():
+    compteur3()
+    compteur3()
+
+
+
+B) Fonction avec un paramètre
+
+Exemple
+
+def compteur(stop):
+    i = 0
+    while i < stop:
+        print(i)
+        i = i + 1
+
+
+
+L’argument que nous utilisons dans l’appel d’une fonction peut être une variable ; ex : compteur(7)
+
+
+
+Dans l’exemple ci-dessus, l’argument que nous passons à la fonction compteur() est le contenu de la variable a. 
+A l’intérieur de la fonction, cet argument est affecté au paramètre stop, qui est une tout autre variable.
+Notez donc bien dès à présent que :
+Le nom d’une variable que nous passons comme argument n’a rien à voir avec le nom du paramètre correspondant dans la fonction.
+Ces noms peuvent être identiques si vous le voulez, mais vous devez bien comprendre qu’ils ne désignent pas la même chose 
+(en dépit du fait qu’ils puissent contenir une valeur identique).
+
+
+
+C) Fonction avec plusieurs paramètres
+
+Exemple
+
+La fonction suivante utilise trois paramètres : start qui contient la valeur de départ, stop la borne supérieure exclue comme dans l’exemple précédent 
+et step le pas du compteur.
+
+def compteur_complet(start, stop, step):
+    i = start
+    while i < stop:
+        print(i)
+        i = i + step
+
+compteur_complet(1, 7, 2)
+
+
+
+Lors de l’appel de la fonction, les arguments utilisés doivent être fournis dans le même ordre que celui des paramètres correspondants 
+(en les séparant eux aussi à l’aide de virgules). Le premier argument sera affecté au premier paramètre, 
+le second argument sera affecté au second paramètre, et ainsi de suite.

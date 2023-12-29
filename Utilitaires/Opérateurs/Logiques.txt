@@ -1,0 +1,14 @@
+and : 
+
+2 < 3 and 3 > 4
+False
+
+
+
+or : 
+
+2 < 3 or 3 < 4
+True
+2 < 3 or 3 > 4
+True
+

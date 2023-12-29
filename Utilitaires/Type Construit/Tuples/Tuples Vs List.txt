@@ -1,0 +1,4 @@
+The main difference between lists and tuples is the fact that lists are mutable whereas tuples are immutable.
+What does that even mean, you say?
+A mutable data type means that a python object of this type can be modified.
+An immutable object can’t.

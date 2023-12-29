@@ -1,0 +1,3 @@
+L’opérateur % (appelé opérateur modulo) fournit le reste de la division entière d’un nombre par un autre.
+
+6 % 2 = 0 #pas de reste lors de la divison euclidienne 

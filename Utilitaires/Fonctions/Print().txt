@@ -1,0 +1,8 @@
+print("bonjour")
+bonjour
+
+Il est possible de réaliser plusieurs affichages à la suite. Pour cela, on sépare les éléments par des virgules.
+
+a = 5
+print("a vaut", a)
+a vaut 5

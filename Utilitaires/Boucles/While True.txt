@@ -1,0 +1,13 @@
+
+Dans de nombreux langages, il existe une instruction do…while qui permet de créer une boucle pour laquelle on ne connaît pas à l’avance le nombre de répétition, 
+mais qui doit s’exécuter au moins une fois. 
+Cette instruction n’existe pas en Python, mais on peut facilement reproduire son fonctionnement de la façon suivante :
+
+while True:
+    n = int(input("donnez un entier > 0 : "))
+    print("vous avez fourni", n)
+    if n > 0:
+        break  #tant que le break n'est pas 'activé' , on reste dans la boucle 
+    else : 
+        print("réesaye")
+print("reponse correcte")

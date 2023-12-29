@@ -1,0 +1,10 @@
+Si on ne connait pas à l’avance le nombre de répétitions, on choisit une boucle while.
+
+while condition:
+    Instruction A
+
+x = 1
+while x < 10:
+    print("x a pour valeur", x)
+    x = x * 2 # Multiplication par 2 sinon répétition à l'infini car x= 1
+print("Fin")

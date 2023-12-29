@@ -1,0 +1,5 @@
+def afficheMax ( a , b , c ) :
+m = a
+m = b if m < b
+m = c if m < c
+print ( "Le max est", m )

@@ -1,0 +1,58 @@
+Boucle bornée
+Quand on sait combien de fois doit avoir lieu la répétition, on utilise généralement une boucle for.
+
+
+
+for i in [0, 1, 2, 3]:
+    print("i a pour valeur", i)
+
+Affichage après exécution :
+
+i a pour valeur 0
+i a pour valeur 1
+i a pour valeur 2
+i a pour valeur 3
+
+
+on peut aussi écrire 
+
+
+for i in range(4):
+    print("i a pour valeur", i)
+
+# Au cours de la répétition de la boucle , i prendra les valeurs incluses dans range(4) cad 0,1,2,3
+
+
+ 
+parcourir les indices 
+Exemple 
+t = ["pommes" , "poires" , "bananes"] 
+for i in range(3) : 
+    print (t[i])
+
+equivaut à
+
+t = ["pommes" , "poires" , "bananes"] 
+for i in range(len(t)) : 
+    print (t[i]) 
+
+
+
+
+Dans l’exemple suivant, nous allons illustrer que la variable indiquée après for parcourt toutes les valeurs de la liste donnée après in :
+
+c = ["Marc", "est", "dans", "le", "jardin"]
+for i in c:
+    print("i vaut", i)
+
+>>>
+i vaut Marc
+i vaut est
+i vaut dans
+i vaut le
+i vaut jardin
+
+
+
+
+

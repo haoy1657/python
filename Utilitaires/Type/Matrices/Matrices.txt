@@ -1,0 +1,17 @@
+Un tableau 2D (ou matrice) peut etre vu comme un tableau contenant des
+tableaux contenant des elements
+
+Déclaration
+
+Matrice vide (aucune case) : mat = [ [ ] ]
+
+Matrice de n × m cases remplies de valeurs identiques : mat = [ [val] * m ] * n
+
+Matrice avec des valeurs différentes :
+
+mat = [ [val11, val12, val13, ...], [val21, val22, val23, ...], ... ]
+
+mat = [  [Ligne 1 avec ses elements]  [Ligne 2] [Linge 3]....[ligne n] ] 
+
+
+Utilisation : accès à la jème case de la ième ligne : mat[i][j]

@@ -1,0 +1,26 @@
+L’instruction continue permet de passer prématurément au tour de boucle suivant. Elle fait continuer sur la prochaine itération de la boucle.
+
+for i in range(4):
+    print("debut iteration", i)
+    print("bonjour")
+    if i < 2:
+        continue                      # une fois i > 2 , on pourra débloquer le print ("fin interation")
+    print("fin iteration", i)
+print("apres la boucle")              # accéssible lors de la fin de la boucle for 
+
+
+
+
+Affichage après exécution :
+
+debut iteration 0
+bonjour
+debut iteration 1
+bonjour
+debut iteration 2
+bonjour
+fin iteration 2
+debut iteration 3
+bonjour
+fin iteration 3
+apres la boucle

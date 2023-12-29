@@ -1,0 +1,11 @@
+Il est très facile de créer une fonction qui renvoie un tuple. Il suffit d’indiquer ce tuple après return.
+
+def test():   # definition de la fonction , sans arguments 
+     return 3, 4
+a = test()
+a
+(3, 4)
+b, c = test()
+
+b = 3
+c = 4

@@ -1,0 +1,24 @@
+
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+
+
+range(10) 
+range(0, 10) #part de 0 et s'arrete à 9
+
+si on souhaite afficher les valeurs, il est nécessaire de convertir le résultat en liste grâce à la fonction list(). Par exemple :
+
+list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9] # Affichage de 10 valeurs 
+
+
+De manière générale, on a :
+
+range(start , stop , step)
+Le pas peut être positif ou négatif. La valeur de la borne de fin (maximale ou minimale) n’est jamais atteinte.
+
+ex : 
+
+list(range(0,11,2))
+
+Out[]: [0, 2, 4, 6, 8, 10]
+

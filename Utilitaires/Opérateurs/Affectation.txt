@@ -1,0 +1,2 @@
+a = 2
+l’instruction a = 2 est une instruction d”affection qui a pour effet de mettre la valeur 2 dans la variable a.

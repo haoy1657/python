@@ -1,0 +1,22 @@
+L’instruction break permet de « casser » l’exécution d’une boucle (while ou for). Elle fait sortir de la boucle et passer à l’instruction suivante.
+
+Exemple
+
+ for i in range(10):
+    print("debut iteration", i)
+    if i == 2:
+        break  #Casse la boucle for , on est automatiquement "ejéctés" de la boucle et on executera la derniere instruction après le for 
+    print("fin iteration", i)
+print("apres la boucle")   # n'apparaitera qu'apres la boucle "for" exécutée (ordres d'instruction)
+
+resultat : 
+
+debut iteration 0
+fin iteration 0
+debut iteration 1
+fin iteration 1
+debut iteration 2
+apres la boucle
+
+
+Dans le cas de boucles imbriquées, l’instruction break ne fait sortir que de la boucle la plus interne.

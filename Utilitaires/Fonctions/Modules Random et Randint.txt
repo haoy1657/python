@@ -1,0 +1,18 @@
+Définition de generateurs de nombres aléatoires dont :
+
+random( ) : réel aléatoire (uniforme) dans [0; 1[
+
+randint( a, b ) : entier aléatoire (uniforme) dans [a; b]
+
+note : ne pas oublier d'importer le package random avec import.random 
+
+exemples : 
+
+random.random() 
+
+
+random.randint(1,100)
+Out[]: 70
+
+random.random()
+Out[]: 0.7062260649572653

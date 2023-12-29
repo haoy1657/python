@@ -1,0 +1,54 @@
+Lorsqu’une fonction est appelée, Python réserve pour elle (dans la mémoire de l’ordinateur) un espace de noms. 
+Cet espace de noms local à la fonction est à distinguer de l’espace de noms global où se trouvait les variables du programme principal. 
+Dans l’espace de noms local, nous aurons des variables qui ne sont accessibles qu’au sein de la fonction. 
+
+A chaque fois que nous définissons des variables à l’intérieur du corps d’une fonction, ces variables ne sont accessibles qu’à la fonction elle-même. 
+On dit que ces variables sont des variables locales à la fonction. Une variable locale peut avoir le même nom qu’une variable de l’espace de noms global 
+mais elle reste néanmoins indépendante.
+
+Les contenus des variables locales sont stockés dans l’espace de noms local qui est inaccessible depuis l’extérieur de la fonction.
+Les variables définies à l’extérieur d’une fonction sont des variables globales. 
+Leur contenu est « visible » de l’intérieur d’une fonction, mais la fonction ne peut pas le modifier.
+
+Exemple
+
+def test(): # définition de la fonction
+    b = 5 # Variable locale 
+    print(a, b)
+    
+a = 2
+b = 7  # Variable globale 
+
+test() #1
+print(a, b) #2
+
+
+resultat : 
+
+2 5 #1
+2 7  #2
+
+
+
+A) Utilisation d’une variable globale - global
+Il peut se faire par exemple que vous ayez à définir une fonction qui soit capable de modifier une variable globale. 
+Pour atteindre ce résultat, il vous suffira d’utiliser l’instruction global. 
+Cette instruction permet d’indiquer - à l’intérieur de la définition d’une fonction - quelles sont les variables à traiter globalement.
+
+On va ici créer une fonction qui a accès à la variable globale b.
+
+
+def test():
+    global b
+    b = 5
+    print(a, b)
+    
+a = 2
+b = 7
+test()
+print(a, b)
+
+Affichage après exécution :
+
+2 5
+2 5

@@ -1,0 +1,37 @@
+I) 
+
+La plus fidèle a la théorie
+
+n_samples = 480  #nombre de valeurs contenus dans le tableau "Temps"
+np_fft = np.fft.fft(Amplitude)  #Operation de transformée sur les valeurs 
+#discretes qui forment le signal
+
+
+temps_ajusté = Temps*0.001 #conversion de "Temps" en secondes
+# (donné en millisecondes par phyhpox)
+t1 = temps_ajusté[479]
+
+spectre = 2 / n_samples * np.abs(np_fft)  
+#Definition de l'axe des fréquences
+frequencies = np.fft.fftfreq(n_samples) * n_samples * 1 / (t1 - 0)
+
+
+
+
+
+
+
+II )
+
+from scipy.fftpack import fft, ifft
+
+
+TF = fft(signal,Nombre échantillons)
+
+pour l'axe des fréquences
+
+np.fft.fftfreq(signal.size, d)
+
+d est le sample spacing 
+faire varier pour jouer sur les puissances de 10 de l'axe des freq
+d = 1./ sampling rate 

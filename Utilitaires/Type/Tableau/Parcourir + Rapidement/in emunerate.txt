@@ -1,0 +1,10 @@
+# Recherche du maximum et de sa position
+
+maxT , posT = tab [0] , 0
+
+# enumerate renvoie successivement tous les couples (indice, valeur) d’un tableau
+
+for i , valT in enumerate ( tab ) : # et valeurs de tab
+   if maxT < valT :
+   maxT = valT
+   posT = i

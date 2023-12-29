@@ -1,0 +1,4 @@
+Une « vraie » fonction (au sens strict) doit en effet renvoyer une valeur lorsqu’elle se termine.
+
+def cube(w):
+    return w**3

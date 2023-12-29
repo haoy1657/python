@@ -1,0 +1,20 @@
+En général, si on connaît avant de démarrer la boucle le nombre d’itérations à exécuter, on choisit une boucle for. 
+Au contraire, si la décision d’arrêter la boucle ne peut se faire que par un test, on choisit une boucle while.
+
+Il est toujours possible de remplacer une boucle for par une boucle while.
+
+
+avec for 
+
+for i in range(4):
+    print("i a pour valeur", i)
+# i prends les valeurs de 0 à 3
+
+
+
+avec while 
+i = 0
+while i < 4 :
+    print(i) 
+    i = i+1
+print("the end")

@@ -1,0 +1,47 @@
+nombre_de_pneus
+{'voiture': 4, 'vélo': 2}
+
+for i in nombre_de_pneus : 
+    
+    print("voici l'élement numéro",k ,":", i)
+    k = k + 1
+else : 
+    k = 0
+
+
+voici l'élement numéro 0 : voiture
+voici l'élement numéro 1 : vélo
+
+
+
+
+Pour parcourir, on utilise .items() 
+
+Exemple pour une boucle for avec un indice i
+
+nombre_de_roues = {"voiture": 4, "vélo": 2, "tricycle": 3}
+
+for i in nombre_de_roues.items():
+    print(i)
+
+
+('voiture', 4)
+('vélo', 2)
+('tricycle', 3)
+
+
+
+
+
+Autre exemple pour une boucle for avec deux indices : cle et valeur
+
+ for cle, valeur in nombre_de_roues.items():
+        print("l'élément de clé", cle, "vaut", valeur)
+
+
+l'élément de clé voiture vaut 4
+l'élément de clé vélo vaut 2
+l'élément de clé tricycle vaut 3
+
+
+note : item affiche (valeur , clé) , donc les indices valeur et clé prendront chaqun respectivement la bonne valeur pour chaque item

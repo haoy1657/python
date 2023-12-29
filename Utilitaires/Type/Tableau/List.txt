@@ -1,0 +1,19 @@
+Sous Python, on peut définir une liste comme une collection d’éléments séparés par des virgules, l’ensemble étant enfermé dans des crochets.
+
+Exemple :
+
+jour = ["lundi", "mardi", "mercredi", 1800, 20.357, "jeudi", "vendredi"]
+type(jour)
+list
+
+
+Tableau vide (aucune case) : nomTab = [ ]
+Tableau de n cases remplies de valeurs identiques : nomTab = [ val ] * n
+Tableau avec des valeurs diff´erentes : nomTab = [ val1, val2, val3, ... ]
+
+On accède au contenu d’une case d’un tableau par tab[i]
+
+L’indice -1 permet de recuperer la derni`ere case du tableau
+
+Ajout d’une valeur a la fin du tableau : tab.append( val )
+avec tab le nom du tableau défini 

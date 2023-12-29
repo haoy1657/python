@@ -1,0 +1,10 @@
+Python posséde par défaut un type pour manipuler les nombres complexes. 
+La partie imaginaire est indiquée grâce à la lettre « j » ou « J ». La lettre mathématique utilisée habituellement, 
+le « i », n’est pas utilisée en Python car la variable i est souvent utilisée dans les boucles.
+
+a = 2 + 3j
+type(a)
+complex
+
+1j**2
+(-1+0j)

@@ -1,0 +1,41 @@
+if condition:
+    Instruction A        # apres écriture du "if condition" , appuyer sur entrée pour entrer dans la boucle et crtl + entrée pour en sortir 
+
+Le : (deux-points) à la fin de la ligne introduit le bloc d’instructions qui sera exécuté si la condition est vérifiée.
+
+
+# après ecriture du code avec les if , appuyer sur la touche ^ (en bas à droite du clavier) et entrée pour sortir
+
+Exemple 
+x = 15
+if x > 10:
+    print(x, "est plus grand que 10")
+print("Fin")
+
+
+
+Exemple 2
+x = 5
+if x > 0:
+    print(x, "est plus grand que 0")
+    print("il est strictement positif")
+print("Fin")
+
+Dans cet exemple, le bloc après le if contient deux instructions. L’instruction print("Fin") ne fait pas partie du bloc car elle n’est pas indentée.
+
+
+
+
+if condition:
+    Instruction A
+else:
+    Instruction B
+
+
+ x = 77
+if x == 7 : 
+    print("oui")
+else: 
+    print("non")
+
+

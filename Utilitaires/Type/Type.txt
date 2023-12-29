@@ -1,0 +1,17 @@
+La fonction type()
+Pour connaître le type d’une donnée ou le type de la valeur d’une variable, il suffit d’utiliser la fonction type().
+
+Exemples :
+
+type(15)
+int
+
+
+a = 15
+type(a)
+int
+
+
+a = "toto"
+type(a)
+str

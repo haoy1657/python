@@ -1,0 +1,41 @@
+
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+Graduations des axes
+plt.axis([0, 5, 0, 5])
+
+Noms des axes
+plt.xlabel(" ")
+plt.ylabel(" ")
+
+Motifs de plots
+
+'Couleur--' -->  ligne 
+'Couleur s' --> Carrés
+'Couleur^ --> Triangles
+
+
+hold on pour plt.plot
+equivaut à faire CRTL + entrée
+
+
+concernant linspace
+ np.linspace (a , b , c , endpoint = True)   -- alors la dernière valeur sera b 
+np.linspace (a , b , c , endpoint = False)      -- la dernière valeur n'est pas b -- rearrangement du linspace , équivaut à range 
+
+ex : 
+
+j = np.linspace(0 , 1 , 4 , endpoint=True)
+print(j)
+[0. , 0.33333333 , 0.66666667 ,1]
+
+
+
+j2 = np.linspace(0 , 1 , 4 , endpoint=False)
+print(j2)
+[0.   , 0.25  ,0.5  , 0.75]
+    
+
+

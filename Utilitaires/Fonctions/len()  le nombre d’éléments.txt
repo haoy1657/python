@@ -1,0 +1,7 @@
+a = list(range(7,10)) # pas de 1 par defaut 
+
+>>> a
+[7, 8, 9]
+
+>>> len(a)
+3

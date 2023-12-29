@@ -1,0 +1,8 @@
+Nous avons vu ci-dessous qu’il était possible de créer un dictionnaire avec des accolades qui entourent les éléments. 
+Une autre approche possible consiste à créer un dictionnaire vide et à ajouter les éléments au fur et à mesure.
+
+nombre_de_pneus = {}
+nombre_de_pneus["voiture"] = 4
+nombre_de_pneus["vélo"] = 2
+nombre_de_pneus
+{'voiture': 4, 'vélo': 2}

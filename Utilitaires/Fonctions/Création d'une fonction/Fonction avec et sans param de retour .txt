@@ -1,0 +1,7 @@
+Syntaxe
+
+Fonction sans valeur de retour :
+nomMethode( param`etres effectifs )
+
+Fonction avec valeur de retour :
+variable = nomMethode( param`etres effectifs )

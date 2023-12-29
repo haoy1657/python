@@ -1,0 +1,9 @@
+Le type bool est utilisé pour les booléens. Un booléen peut prendre les valeurs True ou False.
+
+a = True
+type(a)
+bool
+
+b = not(a)
+b
+False

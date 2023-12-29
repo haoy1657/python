@@ -1,0 +1,4 @@
+n , m = 3 , 4
+a , b = 1, 17  # elements aleatoires de 1 à 17 pour chaque ligne 
+
+mat = [ [ randint (a , b ) for j in range ( m) ] for i in range (n ) ]

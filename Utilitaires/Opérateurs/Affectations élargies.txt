@@ -1,0 +1,21 @@
+pour alleger le code 
+
+a = a (opération) b 
+
+revient à écrire 
+
+a (operation) = b 
+
+ex : 
+Reel = 2
+Seuil = 7
+
+Reel*=Seuil 
+Reel ==> 14
+
+
+ou 
+
+Reel%=Seuil 
+Reel ==> reste de 2/7 au sens de la division euclidienne 
+Reel = 2

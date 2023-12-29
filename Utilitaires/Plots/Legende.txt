@@ -1,0 +1,2 @@
+plt.legend(('Données', 'ajustement '), -- legendes par ordre des plots
+           loc='lower right')  -- location 

@@ -1,0 +1,4 @@
+tableau = [0,1,2,3]
+
+tableau.insert( position , element à insérer)
+tableau.insert(1,6) == [0, 6, 1, 2, 3]

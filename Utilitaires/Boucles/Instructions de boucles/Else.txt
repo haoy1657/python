@@ -1,0 +1,49 @@
+La clause else dans un boucle permet de définir un bloc d’instructions qui sera exécuté à la fin seulement si la boucle 
+s’est déroulée complétement sans être interrompue par un break.
+
+Contrairement aux instructions présentes après la boucle, qui s’exécutent dans tous les cas (avec ou sans interruption par un break), 
+le bloc d’instructions défini dans la clause else ne s’exécutera pas lors de l’interruption par un break. Après l’interruption, 
+on passera directement aux instructions après la boucle.
+
+
+Autrement dit, le bloc de la clause else est exécuté lorsque la boucle se termine par épuisement de la liste (avec for) 
+ou quand la condition devient fausse (avec while), mais pas quand la boucle est interrompue par un break
+
+
+for n in range(2, 8):
+    for x in range(2, n):
+        if n % x == 0:
+            print(n, "egale", x, "*", n/x)
+            break
+    else:
+        print(n, "est un nombre premier")
+
+
+ici n varie de 2 à 7. 
+l'instruction  for x in range(2, n) a pour but de faire prendre à la valeure x les valeurs allant de 2 à n pour verifier
+si le nombre n est bien premier.
+En effet , le programme effectuera plusieurs divisions n/x en partant du plus petit x donné par x = range(2,n), la première division qui donnera 
+un reste entier égal à 0 , le programme va alors notifier 'n' comme premier.
+
+
+Exemple 
+
+lorsque n = 5 
+x peut aller de 2 à 4 
+
+donc 
+
+5/2 : pas de % égal à 0 , passage au tour de boucle (for) suivant pour x = 3
+5/3 : meme chose , on passe à x = 4
+5/4 : au final aucun % ne vaut 0 , on peut donc passer au else 
+
+
+
+lorsque n = 6
+x peut aller de 2 jusqu'a 5
+
+pour x = 2
+6/2 dont le % égal 0 
+
+on 'break' la boucle for car pas besoin de vérifier pour 3,4,5 , on a déja montré que 6 est premier
+on ne pourra pas rejoindre le else , on passe à n = 7
